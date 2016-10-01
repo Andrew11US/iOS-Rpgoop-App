@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90ECE4A41D8812CC00384B03 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECE4A31D8812CC00384B03 /* Player.swift */; };
+		90ECE4A61D881CF800384B03 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECE4A51D881CF800384B03 /* Enemy.swift */; };
+		90ECE4A81D881F3E00384B03 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECE4A71D881F3E00384B03 /* Kimara.swift */; };
+		90ECE4AA1D88231200384B03 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECE4A91D88231200384B03 /* DevilWizard.swift */; };
 		90F49D271D880A8400DBDB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F49D261D880A8400DBDB7E /* AppDelegate.swift */; };
 		90F49D291D880A8400DBDB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F49D281D880A8400DBDB7E /* ViewController.swift */; };
 		90F49D2C1D880A8400DBDB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F49D2A1D880A8400DBDB7E /* Main.storyboard */; };
 		90F49D2E1D880A8400DBDB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F49D2D1D880A8400DBDB7E /* Assets.xcassets */; };
 		90F49D311D880A8400DBDB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F49D2F1D880A8400DBDB7E /* LaunchScreen.storyboard */; };
+		90F49D391D880CAB00DBDB7E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F49D381D880CAB00DBDB7E /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90ECE4A31D8812CC00384B03 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		90ECE4A51D881CF800384B03 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		90ECE4A71D881F3E00384B03 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		90ECE4A91D88231200384B03 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		90F49D231D880A8400DBDB7E /* rpgoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F49D261D880A8400DBDB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F49D281D880A8400DBDB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		90F49D2D1D880A8400DBDB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F49D301D880A8400DBDB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90F49D321D880A8400DBDB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F49D381D880CAB00DBDB7E /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				90F49D2D1D880A8400DBDB7E /* Assets.xcassets */,
 				90F49D2F1D880A8400DBDB7E /* LaunchScreen.storyboard */,
 				90F49D321D880A8400DBDB7E /* Info.plist */,
+				90F49D381D880CAB00DBDB7E /* Character.swift */,
+				90ECE4A31D8812CC00384B03 /* Player.swift */,
+				90ECE4A51D881CF800384B03 /* Enemy.swift */,
+				90ECE4A71D881F3E00384B03 /* Kimara.swift */,
+				90ECE4A91D88231200384B03 /* DevilWizard.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					90F49D221D880A8400DBDB7E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZY8L8RU5M8;
 					};
 				};
 			};
@@ -135,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90ECE4A41D8812CC00384B03 /* Player.swift in Sources */,
+				90ECE4A61D881CF800384B03 /* Enemy.swift in Sources */,
+				90ECE4AA1D88231200384B03 /* DevilWizard.swift in Sources */,
+				90ECE4A81D881F3E00384B03 /* Kimara.swift in Sources */,
+				90F49D391D880CAB00DBDB7E /* Character.swift in Sources */,
 				90F49D291D880A8400DBDB7E /* ViewController.swift in Sources */,
 				90F49D271D880A8400DBDB7E /* AppDelegate.swift in Sources */,
 			);
@@ -251,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = rpgoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foster-Inc..rpgoop";
@@ -262,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = rpgoop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Foster-Inc..rpgoop";
@@ -288,6 +311,7 @@
 				90F49D371D880A8400DBDB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
